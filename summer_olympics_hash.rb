@@ -25,9 +25,12 @@ end
 def iterate_through_hash
   # Implement this method so that it iterates over the hash created in add_a_key_value_pair
   # and puts each key value pair within the phrase "The _____ summer olympics took place in _____."
-  
-
+  def sum(hash)
+  hash.each do |city, age|
+    puts "The #{city} summer olympics took place in #{age}"
+  end
 end
+
 
 def iterate_through_keys
   # Implement this method so that it converts the keys of the hash created in add_a_key_value_pair
