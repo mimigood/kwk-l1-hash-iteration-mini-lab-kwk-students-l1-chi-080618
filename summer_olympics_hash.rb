@@ -16,7 +16,11 @@ def add_a_key_value_pair
   updated_hash = create_olympics_hash 
   updated_hash[:Atlanta] = "1996"
   return updated_hash
-end
+  
+  one_direction.each do |name, age|
+  
+  puts "#{city} is #{age} years old"
+end 
 
 def iterate_through_hash
   # Implement this method so that it iterates over the hash created in add_a_key_value_pair
