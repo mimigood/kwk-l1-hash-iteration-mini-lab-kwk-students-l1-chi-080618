@@ -27,7 +27,7 @@ def iterate_through_hash
   # and puts each key value pair within the phrase "The _____ summer olympics took place in _____."
   def sum(hash)
   hash.each do |city, age|
-    puts "The #{city} summer olympics took place in #{age}"
+    puts "The #{age} summer olympics took place in #{city}"
   end
 end
 
